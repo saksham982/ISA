@@ -1,8 +1,10 @@
-*{
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    overflow-x: hidden;
+   color:black
 }
 header{
     background-color: #3C3C3C;
@@ -103,12 +105,16 @@ form{
     background-color: white;
     border:2px solid #3C3C3C;
 }
+footer{
+    background-color:#3C3C3C;
+    padding-bottom: 10px;
+    color: white;
+}
 .contact{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#3C3C3C;
     color: white;
     padding-top: 65px;
     height: 300px;
@@ -122,4 +128,7 @@ form{
 }
 .two{
     margin: 10px 106px 0 0;
+}
+span{
+    color: #73BF44;
 }
